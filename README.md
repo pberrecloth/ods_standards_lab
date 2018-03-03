@@ -1,20 +1,5 @@
-[![grunt banner](/doc/img/github_top.png?raw=true)](https://www.youtube.com/SecondnetworkDe)
+# grunt-bootstrap
 
-# grunt-starter-kit
-
-**[German/Deutsch]**
-
-Tutorial-Serie auf YouTube.
-
-[YouTube Playlist](https://www.youtube.com/playlist?list=PL6rTABPbOJUmqmGuDVJBmBPq2rilgmRSY)
-[YouTube Cannel](https://www.youtube.com/SecondnetworkDe)
-
-**[English/Englisch]**
-
-A tutorial series. Only in German language on YouTube.
-
-[YouTube Playlist](https://www.youtube.com/playlist?list=PL6rTABPbOJUmqmGuDVJBmBPq2rilgmRSY)
-[YouTube Cannel](https://www.youtube.com/SecondnetworkDe)
 
 **GRUNT + SASS + BrowserSync + bootstrap**
 

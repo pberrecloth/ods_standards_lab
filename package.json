@@ -1,13 +1,13 @@
 {
-  "name": "grunt-starter-kit",
+  "name": "open-data-services-standards-lab",
   "version": "1.0.0",
-  "author": "Andreas Farah",
-  "homepage": "http://secondnetwork.de",
+  "author": "Peter Berrecloth",
+  "homepage": "",
   "main": "index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:secondnetwork/grunt-starter-kit.git"
+    "url": ""
   },
   "dependencies": {
     "grunt": "^1.0.2",
