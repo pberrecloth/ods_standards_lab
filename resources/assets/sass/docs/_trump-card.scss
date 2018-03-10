@@ -1,20 +1,54 @@
-.bd-example #accordion {
-  border-radius: 8px;
+.trump {
+  border-radius: 12px;
   overflow: hidden;
+  margin-bottom: 2rem;
+  .card {
+    background-color: rgba(0,0,0, .02);
+  }
   .card .card-header {
     background-color: #5861CC;
     font-family: $heading-font !important;
     font-weight: $heading-font-weight-medium;
+    padding: 0;
   }
-  .btn.btn-link {
-    color: #fff;
+
+  .card-header h5 .btn.btn-link {
+    color: #fff !important;
     font-family: $heading-font !important;
     font-weight: $heading-font-weight-medium;
     font-size: 18px;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    padding: 0.75rem 1.25rem;
+    &:focus, &:hover {
+      text-decoration: none;
+    }
+    &:hover {
+      background-color: rgba(0,0,0,0.1);
+    }
   }
   .card-body {
     font-size: 16px;
     font-family: $ui-font;
     font-weight: $ui-font-weight-light;
+  }
+  .card-enclosed {
+    background-color: #fff;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.125);
+    margin: 0.75rem 1.25rem;
+    padding: 1.25rem 1.25rem;
+    border-radius: .5rem;
+  }
+  .row {
+    margin: 0.75rem 0.5rem;
+    justify-content: space-between;
+
+    .card-enclosed {
+      margin: 0 .75rem;
+      flex: 1;
+
+    }
   }
 }

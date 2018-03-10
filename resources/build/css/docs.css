@@ -5,6 +5,8 @@
  * Licensed under the Creative Commons Attribution 3.0 Unported License. For
  * details, see https://creativecommons.org/licenses/by/3.0/.
  */
+.bd-sidebar .btn-link:hover { color: #000; }
+
 .bd-navbar { min-height: 4rem; background-color: #BE5D82; }
 .bd-navbar .brand h1 { color: white; font-size: 22px; float: right; margin-left: 6px; padding-top: 0.2rem; }
 @media (max-width: 991.98px) { .bd-navbar { padding-right: .5rem; padding-left: .5rem; }
@@ -58,15 +60,18 @@
 
 .bd-text-purple-bright { color: #d890ab; }
 
-body, .navbar, .btn { font-family: "Ubuntu", sans-serif; }
+body { font-family: "Didact Gothic", "PT Serif", serif; letter-spacing: 0.02em; }
 
-.bd-content p, .bd-content ul li, .bd-content table { font-family: "Didact Gothic", "PT Serif", serif; font-size: 19px; color: rgba(0, 0, 0, 0.84); letter-spacing: 0.02em; }
+.navbar, .btn { font-family: "Ubuntu", sans-serif; }
+
+.bd-content p, .bd-content ul li, .bd-content table { font-family: "Didact Gothic", "PT Serif", serif; font-size: 19px; color: rgba(0, 0, 0, 0.84); letter-spacing: 0.015em; word-spacing: .04em; }
 
 .bd-content table { font-size: 16px; }
 
 .bd-content code { font-family: "Ubuntu Mono", "Menlo", monospace; font-size: 20px; }
+.bd-content code .highlighter-rouge { color: #BE5D82; }
 
-.bd-content h1, .bd-content h2, .bd-content h3, .bd-content h4, .bd-content h5, .bd-content h6 { font-family: "Ubuntu", sans-serif; font-weight: 700; color: rgba(0, 0, 0, 0.84); }
+.bd-content h1, .bd-content h2, .bd-content h3, .bd-content h4, .bd-content h5, .bd-content h6 { font-family: "Ubuntu", sans-serif; font-weight: 700; color: rgba(0, 0, 0, 0.84); letter-spacing: 0.01em; }
 .bd-content h1 { font-size: 44px; }
 .bd-content h2 { font-size: 33px; }
 .bd-content h3 { font-size: 24px; font-weight: 500; }
@@ -104,8 +109,8 @@ body, .navbar, .btn { font-family: "Ubuntu", sans-serif; }
 
 .bd-sidenav { display: none; }
 
-.bd-toc-link { display: block; padding: .25rem 1.5rem; font-weight: 500; color: rgba(0, 0, 0, 0.65); }
-.bd-toc-link:hover { color: rgba(0, 0, 0, 0.85); text-decoration: none; }
+.bd-toc-link { display: block; padding: .25rem 1.5rem; font-weight: 700; color: rgba(0, 0, 0, 0.65); }
+.bd-toc-link:hover { color: rgba(0, 0, 0, 0.84); text-decoration: none; }
 
 .bd-toc-item.active { margin-bottom: 1rem; }
 .bd-toc-item.active:not(:first-child) { margin-top: 0rem; }
@@ -365,6 +370,17 @@ body, .navbar, .btn { font-family: "Ubuntu", sans-serif; }
 .btn-clipboard:hover { color: #fff; background-color: #027de7; }
 
 @media (min-width: 768px) { .bd-clipboard { display: block; } }
+.trump { border-radius: 12px; overflow: hidden; margin-bottom: 2rem; }
+.trump .card { background-color: rgba(0, 0, 0, 0.02); }
+.trump .card .card-header { background-color: #5861CC; font-family: "Ubuntu", sans-serif !important; font-weight: 500; padding: 0; }
+.trump .card-header h5 .btn.btn-link { color: #fff !important; font-family: "Ubuntu", sans-serif !important; font-weight: 500; font-size: 18px; height: 100%; width: 100%; text-align: left; padding: 0.75rem 1.25rem; }
+.trump .card-header h5 .btn.btn-link:focus, .trump .card-header h5 .btn.btn-link:hover { text-decoration: none; }
+.trump .card-header h5 .btn.btn-link:hover { background-color: rgba(0, 0, 0, 0.1); }
+.trump .card-body { font-size: 16px; font-family: "Ubuntu", sans-serif; font-weight: 300; }
+.trump .card-enclosed { background-color: #fff; border: 1px solid; border-color: rgba(0, 0, 0, 0.125); margin: 0.75rem 1.25rem; padding: 1.25rem 1.25rem; border-radius: .5rem; }
+.trump .row { margin: 0.75rem 0.5rem; justify-content: space-between; }
+.trump .row .card-enclosed { margin: 0 .75rem; flex: 1; }
+
 .hll { background-color: #ffc; }
 
 .c { color: #999; }

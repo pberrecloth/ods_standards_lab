@@ -367,9 +367,63 @@
           </div>
 
 
+<!-- Main Content -->
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
-          <h1 class="bd-title" id="content">Collapse</h1>
-          <p class="bd-lead">Toggle the visibility of content across your project with a few classes and our JavaScript plugins.</p>
+
+
+          <h1 class="bd-title" id="content">Component Library</h1>
+          <p class="bd-lead">Lead text goes here.</p>
+
+          <p>On reviewing a range of policy-related data standards, including those that we maintain and those maintained by others, we identified approximately 60 components that at least two standards have chosen to create or adopt.</p>
+          <p>Whether or not these are important to a particular standard depends on lots of factors, including but not limited to the maturity of the standard, whether the standard’s adoption is being driven co-operatively or adversarially, political factors and the character of the people and organisations in the domain where the standard operates.</p>
+          <p>We conducted an exercise with representatives of several standards, asking them to conduct a diamond ranking exercise of the components. Diamond ranking was chosen to allow a ‘fat middle’ while forcing a decision on the highest and lowest priority items. Participants were asked to consider a standard at different levels of maturity, using Charles Handy’s Second Curve model for describing maturity.</p>
+          <p>The list of components is below, with TODO: guidance as to what may make them more or less important for a particular standard.</p>
+
+
+
+          <div id="accordion" class="trump">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Advocacy Plan
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <h5>Summary</h5>
+Setting out steps to encourage organizations to adopt the standard.                </div>
+                <div class="card-enclosed">
+                  <h6>Description</h6>
+An advocacy plan provides the resources and sets out the steps that will be followed to encourage organisations to adopt a standard, as well as key arguments. It should be updated regularly as the standard matures and as the standard starts to have an impact.                </div>
+                <div class="card-enclosed">
+                  <h6>Prioritisation Factors</h6>
+                  Where standards are being developed outside of the organisations that are expected to adopt the standard
+                  If there is a perceived cost to adopting a standard                </div>
+                <div class="card-enclosed">
+                  <h6>Deprioritisation Factors</h6>
+Where a standard is emerging from consensus among the organisations that are expected to use it                </div>
+                <div class="row">
+                <div class="card-enclosed">
+                  <h6>Related Components</h6>
+                  <a href="#">Blog</a>
+                </div>
+                <div class="card-enclosed">
+                  <h6>Related Patterns</h6>
+                    <a href="#">Link</a>
+                </div>
+                </div>
+                <div class="card-body">
+                  <h5>Example</h5>
+                  The Open Contracting Data Standard uses 'Contracting Process' as it's top-object, nesting information on each stage of contracting within this. This partially reflects the data found during research (though this was mostly structured around the idea of a 'notice', a 'contract' or an 'award') and substantially reflects user-demand for joined up data from across all stages of contracting. The choice of 'contracting process' plays a substantial normative role and seeks to change how existing data systems are understood.
+                  The 360 Giving Data Standard uses Grant as it's top-concept, rather than grantmaking process. This reflects the design-principle of the standard to adopt a simple, static, representation of grants made.                </div>
+              </div>
+            </div>
+          </div>
+
+
 
           <h2 id="example">Example</h2>
 

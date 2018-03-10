@@ -124,7 +124,11 @@
 
 // Temporary Typography styles
 
-body,
+body {
+  font-family: $body-font;
+  letter-spacing: 0.02em;
+}
+
 .navbar,
 .btn {
   font-family: $ui-font;
@@ -136,7 +140,8 @@ body,
   font-family: $body-font;
   font-size: 19px;
   color: rgba(0,0,0,.84);
-  letter-spacing: 0.02em;
+  letter-spacing: 0.015em;
+  word-spacing: .04em;
 }
 .bd-content table {
   font-size: 16px;
@@ -144,6 +149,9 @@ body,
 .bd-content code {
   font-family: $code-font;
   font-size: 20px;
+  .highlighter-rouge {
+    color: $bd-purple;
+  }
 }
 
 .bd-content {
@@ -151,6 +159,7 @@ body,
     font-family: $heading-font;
     font-weight: $heading-font-weight-bold;
     color: rgba(0,0,0,.84);
+    letter-spacing: 0.01em;
   }
   h1 {
     font-size: 44px;
