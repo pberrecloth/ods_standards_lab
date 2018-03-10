@@ -1,0 +1,33 @@
+// Local docs variables
+$bd-purple:        #BE5D82 !default;
+$bd-purple-bright: lighten(saturate($bd-purple, 5%), 15%) !default;
+$bd-purple-light:  lighten(saturate($bd-purple, 5%), 45%) !default;
+$bd-dark:          #2a2730 !default;
+$bd-download:      #ffe484 !default;
+$bd-info:          #5bc0de !default;
+$bd-warning:       #f0ad4e !default;
+$bd-danger:        #d9534f !default;
+$bd-white:         #ffffff !default;
+
+
+$ui-font: 'Ubuntu', sans-serif;
+$ui-font-weight-light: 300;
+$ui-font-weight-medium: 500;
+$ui-font-weight-bold: 700;
+
+$heading-font: 'Ubuntu', sans-serif;
+$heading-font-weight-light: 300;
+$heading-font-weight-medium: 500;
+$heading-font-weight-bold: 700;
+
+$body-font: 'Didact Gothic', 'PT Serif', serif;
+$body-font-weight-light: normal;
+$body-font-weight-medium: normal;
+$body-font-weight-bold: normal;
+
+$code-font: 'Ubuntu Mono', 'Menlo', monospace;
+$code-font-weight-light: normal;
+$code-font-weight-medium: normal;
+$code-font-weight-bold: normal;
+
+$brand-primary: #BE5D82;
